@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"首页";
+    self.view.backgroundColor = [UIColor blackColor];
+    NSLog(@"随便说一些东西，啦啦啦啦，看看行不行12345");
+    NSLog(@"在打印一行");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
