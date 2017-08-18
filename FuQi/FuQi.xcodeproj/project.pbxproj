@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		09515CC31F4697B900C554AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09515CC21F4697B900C554AF /* main.m */; };
 		09515CC61F4697B900C554AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09515CC51F4697B900C554AF /* AppDelegate.m */; };
-		09515CC91F4697B900C554AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09515CC81F4697B900C554AF /* ViewController.m */; };
 		09515CCC1F4697B900C554AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09515CCA1F4697B900C554AF /* Main.storyboard */; };
 		09515CCE1F4697B900C554AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09515CCD1F4697B900C554AF /* Assets.xcassets */; };
 		09515CD11F4697B900C554AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09515CCF1F4697B900C554AF /* LaunchScreen.storyboard */; };
 		09515CDC1F4697B900C554AF /* FuQiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09515CDB1F4697B900C554AF /* FuQiTests.m */; };
 		09515CE71F4697B900C554AF /* FuQiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09515CE61F4697B900C554AF /* FuQiUITests.m */; };
+		09C7C9041F46C6AC00402763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C7C9031F46C6AC00402763 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		09515CC21F4697B900C554AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09515CC41F4697B900C554AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09515CC51F4697B900C554AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09515CC71F4697B900C554AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09515CC81F4697B900C554AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09515CCB1F4697B900C554AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09515CCD1F4697B900C554AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09515CD01F4697B900C554AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		09515CE21F4697B900C554AF /* FuQiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuQiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09515CE61F4697B900C554AF /* FuQiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuQiUITests.m; sourceTree = "<group>"; };
 		09515CE81F4697B900C554AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C7C9021F46C6AC00402763 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09C7C9031F46C6AC00402763 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				09515CC41F4697B900C554AF /* AppDelegate.h */,
 				09515CC51F4697B900C554AF /* AppDelegate.m */,
-				09515CC71F4697B900C554AF /* ViewController.h */,
-				09515CC81F4697B900C554AF /* ViewController.m */,
+				09C7C9021F46C6AC00402763 /* ViewController.h */,
+				09C7C9031F46C6AC00402763 /* ViewController.m */,
 				09515CCA1F4697B900C554AF /* Main.storyboard */,
 				09515CCD1F4697B900C554AF /* Assets.xcassets */,
 				09515CCF1F4697B900C554AF /* LaunchScreen.storyboard */,
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09515CC91F4697B900C554AF /* ViewController.m in Sources */,
+				09C7C9041F46C6AC00402763 /* ViewController.m in Sources */,
 				09515CC61F4697B900C554AF /* AppDelegate.m in Sources */,
 				09515CC31F4697B900C554AF /* main.m in Sources */,
 			);
@@ -516,6 +516,7 @@
 				09515CED1F4697B900C554AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09515CEE1F4697B900C554AF /* Build configuration list for PBXNativeTarget "FuQiTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				09515CF01F4697B900C554AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09515CF11F4697B900C554AF /* Build configuration list for PBXNativeTarget "FuQiUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				09515CF31F4697B900C554AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
