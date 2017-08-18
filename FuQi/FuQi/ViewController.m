@@ -23,6 +23,8 @@
     
     
     NSLog(@"12345");
+
+    NSLog(@"换一个看看行不行");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
